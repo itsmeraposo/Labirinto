@@ -2,7 +2,7 @@
 
 Jogo em Unity com um **inimigo (zumbi)** controlado por uma **máquina de estados** com NavMesh e animações do **Mixamo**. O zumbi patrulha entre pontos, persegue o jogador (um rato) quando o vê, procura quando o perde de vista e ataca quando chega perto.
 
-**Autor:** Pedro Afonso Dias Raposo
+**Autores:** Pedro Afonso Dias Raposo e João Pedro Cordeiro Nascimento de Oliveira
 
 ---
 
