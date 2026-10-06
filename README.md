@@ -6,7 +6,7 @@ Jogo em Unity com um **inimigo (zumbi)** controlado por uma **máquina de estado
 
 ---
 
-> **Onde está a entrega:** a IA do inimigo com o Animator está na **Fase 2**, cena `Assets/Scenes/Inimigos.unity`. Para testar, abra essa cena e aperte Play, ou use o botão **Fase 2** no menu.
+> **Onde está a entrega:** a IA do inimigo com o Animator está na **Fase 2**, cena `Assets/Scenes/Inimigos.unity`. Para testar, abra essa cena e aperte Play, ou jogue desde o menu: vença o labirinto (Fase 1) e pise no tapete final, que leva à Fase 2.
 
 ## Requisitos da entrega
 
@@ -106,8 +106,8 @@ Todos estão em `Assets/Scripts/Enemy/`.
 
 | Script | Função |
 |---|---|
-| `MenuManager` | Botões do menu: iniciar jogo, abrir a Fase 2 e sair |
-| `LevelEnd` | Ao pisar no objeto final, carrega a próxima cena (ou encerra o jogo) |
+| `MenuManager` | Botões do menu: iniciar jogo e sair |
+| `LevelEnd` | Colocado no tapete do fim do labirinto: ao pisar nele, carrega a Fase 2 (`Inimigos`) |
 
 ---
 
