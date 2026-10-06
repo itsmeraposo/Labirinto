@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Labirinto.unity
     guid: d75b2525db47d394baffad0c9b800612
+  - enabled: 1
+    path: Assets/Scenes/Inimigos.unity
+    guid: 3b63d1f3749d2e442b606d69f14e5de6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

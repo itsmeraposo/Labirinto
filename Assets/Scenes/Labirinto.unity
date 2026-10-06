@@ -26117,11 +26117,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e88bc5adb8a8a74c80b4168b84858eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCameraController
-  player: {fileID: 127806377}
-  mouseSensitivity: 0.01
-  xRotation: 0
-  accumulatedMouseX: 0
-  playerRb: {fileID: 0}
 --- !u!114 &406334497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26237,8 +26232,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
+  near clip plane: 0.03
+  far clip plane: 100
   field of view: 114
   orthographic: 0
   orthographic size: 5
@@ -41582,10 +41577,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d62211f19fc196f40b681c7b22f4527e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraTarget
-  mouseSensitivity: 0.08
-  minPitch: -35
-  maxPitch: 60
-  pitch: 0
 --- !u!1 &702380613
 GameObject:
   m_ObjectHideFlags: 0
@@ -105722,6 +105713,7 @@ GameObject:
   - component: {fileID: 1693908937}
   - component: {fileID: 1693908936}
   - component: {fileID: 1693908935}
+  - component: {fileID: 1693908940}
   m_Layer: 0
   m_Name: Winning
   m_TagString: Untagged
@@ -105741,8 +105733,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f87a7a27c63823c4f94d56c9b3b73b97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TapeteVitoria
-  telaVitoria: {fileID: 1079280377}
-  mensagem: "Voc\xEA pisou no tapete m\xE1gico! Parab\xE9ns!"
 --- !u!65 &1693908936
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -105836,6 +105826,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1693908940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693908934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f4576d02173daf4b834e180c0c26b55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelEnd
+  nextScene: Inimigos
 --- !u!1 &1697581306
 GameObject:
   m_ObjectHideFlags: 0
